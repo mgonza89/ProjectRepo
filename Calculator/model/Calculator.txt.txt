@@ -1,0 +1,23 @@
+@Entity
+public class Calculator{
+
+	public enum tipoOperacion{
+		Sumar, Restar, Dividir, Multiplicar;
+	}
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	public int id;
+
+	public double firstValue;
+
+	public double secondValue;
+
+	public double resultado;
+
+	public tipoOperacion operacion;
+
+	
+	public Calculator(){
+	}
+}
