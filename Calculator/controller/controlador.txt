@@ -45,4 +45,12 @@ public class Controlador{
 		
 	}
 
+	public void Apagar(){
+		this.view.destroy();
+		this.model.destroy();
+		this.shutDown();
+	}
+
+	
+
 }
