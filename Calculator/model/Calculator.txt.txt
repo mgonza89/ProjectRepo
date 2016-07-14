@@ -1,6 +1,8 @@
 @Entity
 public class Calculator{
 
+//Toqueteando todo el código de Mariano
+
 	public enum tipoOperacion{
 		Sumar, Restar, Dividir, Multiplicar;
 	}
