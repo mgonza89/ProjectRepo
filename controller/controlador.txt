@@ -1,0 +1,26 @@
+import ../view/*
+import ../model/*
+
+public class Controlador{
+
+	private View view;
+	private Model model;
+	
+
+	public Controller(String parametro1){
+		view = new View(parametro1);
+		model = new Model();
+		model.buscarCoasasDeLaBBDD();
+		vista.mostrar(model.cosas());
+		}
+
+	public void requestEnviarFormulario(List<String> valoresForm){
+		model.guardar(this.validar(valoresForm));
+		view.mostrarVista(envioDatosExistoso);
+		}
+
+	private String validar(List <String> valoresForm){
+		for(String valor : valoresForm){
+			validar();
+			}
+		}
