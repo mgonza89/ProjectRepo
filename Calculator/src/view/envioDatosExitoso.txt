@@ -1,0 +1,11 @@
+<!-- <!DOCTYPE html> -->
+
+<!-- <html> -->
+<!-- <head> -->
+<!-- <title>Datos guardados exitosamente!!!</title> -->
+<!-- </head> -->
+<!-- <body bgcolor= "#FFFFFF" text= "silver"> -->
+LOS DATOS FUERON GUARDADOS EXITOSAMENTE, MUCHAS GRACIAS POR UTILIZAR LA APLICACION.
+<!-- </body> -->
+<!-- </html> -->
+<!-- -->
