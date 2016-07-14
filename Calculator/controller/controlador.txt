@@ -19,6 +19,8 @@ public class Controlador{
 		view.mostrarVista(envioDatosExistoso);
 		}
 
+		HOLA LINEA TROLL QUE TIRA MERGE REQUEST!
+
 	private String validar(List <String> valoresForm){
 		for(String valor : valoresForm){
 			validar();
@@ -27,6 +29,7 @@ public class Controlador{
 
 	public double Sumar(double val1, double val2){
 		return val1 + val2;
+		co-co-co-coooombo breaker!;
 	}
 
 	public double Restar(double val1, double val2){
