@@ -24,6 +24,7 @@ public class Controlador{
 	private String validar(List <String> valoresForm){
 		for(String valor : valoresForm){
 			validar();
+                        desvalidar(); //porque si!
 			}
 		}
 
